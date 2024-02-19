@@ -1,0 +1,14 @@
+#!/bin/bash
+# Get the filename as argument
+filename="$1"
+#check if the filename is provided
+if [ -z "$filename" ]; then
+    echo "Please provide a filename."
+    exit 1
+fi
+# Add all files
+git add .
+# Commit with a message including the filename
+git commit -m "Taking the filename: $filename"
+# Push to the remote repository
+git push
