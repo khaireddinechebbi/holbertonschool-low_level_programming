@@ -3,8 +3,8 @@
 /* more headers goes there */
 /**
  * main - entry point
- *Description: 'prints the number whether positive, negative or zero'
- *Return: Always 0 (Success)
+ * Description: 'prints the number whether positive, negative or zero'
+ * Return: Always 0 (Success)
 */
 /* betty style doc for function main goes there */
 int main(void)
