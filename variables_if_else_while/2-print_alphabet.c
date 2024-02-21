@@ -6,10 +6,11 @@
 */
 int main(void)
 {
-int i;
-char str[100] = "abcdefghijklmnopqrst";
-for (int i = 0; i < strlen(str); i++)
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
-putchar(str[i]);
+putchar(i);
 }
+putchar(\n);
+return (0);
 }
