@@ -6,6 +6,7 @@
 */
 int main(void)
 {
+int i;
 char str[100] = "abcdefghijklmnopqrst";
 for (int i = 0; i < strlen(str); i++)
 {
