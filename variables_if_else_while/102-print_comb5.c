@@ -24,6 +24,7 @@ putchar(y + '0');
 if (i !=9 || j != 8 || x != 9 || y != 9)
 {
 putchar(',');
+putchar(' ');
 }
 }
 }
