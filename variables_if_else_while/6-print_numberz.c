@@ -5,12 +5,10 @@
 */
 int main(void)
 {
-long int num = 9876543210;
-while (num > 0)
+int i;
+for (i = 0; i < 10; i++)
 {
-int i = num % 10;
 putchar(i + '0');
-num /= 10;
 }
 putchar('\n');
 return (0);
