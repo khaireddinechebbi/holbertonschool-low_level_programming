@@ -2,11 +2,10 @@
 /**
  * _islower - print if number is positive
  * Description: 'alphabet'
- * Return: 1 if c is a lowercase, otherwise 0.
+ * Return: 1 if lowercase, otherwise 0
 */
 int _islower(int c)
 {
-char c;
 if (c >= 'a' && c <= 'z')
 {
 return (1);
