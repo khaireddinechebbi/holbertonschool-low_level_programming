@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * _islower - print if number is positive
+ * main - print if number is positive
  * Description: 'alphabet'
+ * Return: 1 if c is a lowercase, otherwise 0.
 */
-int _islower(int c)
+int main(void)
 {
+char c;
 if (c >= 'a' && c <= 'z')
 {
 return (1);
