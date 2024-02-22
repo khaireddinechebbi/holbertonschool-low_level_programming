@@ -2,6 +2,7 @@
 /**
  * _islower - print if number is positive
  * Description: 'alphabet'
+ * @c: a character
  * Return: 1 if lowercase, otherwise 0
 */
 int _islower(int c)
