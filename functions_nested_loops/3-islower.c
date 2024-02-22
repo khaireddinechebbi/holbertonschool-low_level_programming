@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print if number is positive
+ * islower - print if number is positive
  * Description: 'alphabet'
 */
 int _islower(int c)
