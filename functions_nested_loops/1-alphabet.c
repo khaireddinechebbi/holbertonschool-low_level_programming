@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print if number is positive
+ * print_alphabet - print if number is positive
  * Description: 'alphabet'
 */
 void print_alphabet(void)
