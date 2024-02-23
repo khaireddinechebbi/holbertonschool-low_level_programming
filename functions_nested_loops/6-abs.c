@@ -8,12 +8,11 @@ int _abs(int i)
 {
 if (i < 0)
 {
-_putchar((i * (-1)) + '0');
+return (i * (-1));
 }
 else
 {
-_putchar(i + '0');
+return (i);
 }
-_putchar('\n');
-return (0);
+
 }
