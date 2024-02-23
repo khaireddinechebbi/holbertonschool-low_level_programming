@@ -15,6 +15,7 @@ _putchar(hr%10 + '0');
 _putchar(':');
 _putchar(mn/10 + '0');
 _putchar(mn%10 + '0');
+_putchar('\n');
 }
 }
 }
