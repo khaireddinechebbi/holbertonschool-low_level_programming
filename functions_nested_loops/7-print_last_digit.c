@@ -11,7 +11,7 @@ int r;
 r = i % 10;
 if (r < 0)
 {
-r *= -1;
+return (r *= (-1));
 }
 return (r);
 }
