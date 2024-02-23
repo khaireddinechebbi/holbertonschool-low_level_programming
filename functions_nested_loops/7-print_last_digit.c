@@ -11,7 +11,8 @@ int r;
 r = i % 10;
 if (r < 0)
 {
-return (r *= (-1));
+r *= -1;
 }
+_putchar(r + '0');
 return (r);
 }
