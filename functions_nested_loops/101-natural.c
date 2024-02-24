@@ -12,8 +12,8 @@ if (i % 3 == 0 || i % 5 == 0)
 {
 z += i;
 }
-printf('%d', z);
 i++;
 }
+printf('%d', z);
 return (0);
 }
