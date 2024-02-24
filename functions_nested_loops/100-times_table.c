@@ -11,7 +11,7 @@ if (n >= 0 && n <= 15)
 for (i = 0; i <= n; i++)
 {
 _putchar('0');
-for (j = 1; j <= 15; j++)
+for (j = 1; j <= n; j++)
 {
 k = i * j;
 _putchar(',');
