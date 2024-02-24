@@ -1,5 +1,7 @@
 #include <main.h>
 /**
+* main - print all natural numbers
+* Return: 0 successful
 */
 int main(void)
 {
