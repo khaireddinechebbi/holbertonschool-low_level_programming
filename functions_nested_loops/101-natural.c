@@ -12,7 +12,7 @@ if (i % 3 == 0 || i % 5 == 0)
 {
 z += i;
 }
-printf('%d', i);
+printf('%d', z);
 i++;
 }
 return (0);
