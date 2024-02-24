@@ -24,6 +24,8 @@ k += j;
 j = k - j;
 printf(", %d", k);
 }
+i++;
 }
+printf("\n");
 return (0);
 }
