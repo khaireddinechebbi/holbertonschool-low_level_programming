@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
 * main - print all natural numbers
 * Return: 0 successful
