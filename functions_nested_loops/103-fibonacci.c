@@ -5,17 +5,16 @@
 */
 int main(void)
 {
-int i = 1, j = 2, s;
-while (s < 4000000)
+int i = 0, j = 1, k = 2, s = k;
+while ((k + j) < 4000000)
 {
-if (i == 1 && j == 2)
+k += j;
+if (k % 2 == 0)
 {
-s = i + j;
+s += k;
 }
-j += i;
-i = j - i;
-s += j;
-s++;
+j = k - j;
+i++;
 }
 printf("%d", s);
 return (0);
