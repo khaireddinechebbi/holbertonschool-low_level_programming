@@ -15,7 +15,7 @@ s = i + j;
 j += i;
 i = j - i;
 s += j;
-s++
+s++;
 }
 printf("%d", s);
 return (0);
