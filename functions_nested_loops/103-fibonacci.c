@@ -16,6 +16,6 @@ s += k;
 j = k - j;
 i++;
 }
-printf("%d", s);
+printf("%d\n", s);
 return (0);
 }
