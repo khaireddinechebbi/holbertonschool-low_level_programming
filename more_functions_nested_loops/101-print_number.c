@@ -15,9 +15,9 @@ while (n / i > 9)
 {
 i *= 10;
 }
+if (n > 9)
 while (i >= 10)
 {
-if (n != 0)
 _putchar(n / i + '0');
 n = n % i;
 i /= 10;
