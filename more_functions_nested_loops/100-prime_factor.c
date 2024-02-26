@@ -7,15 +7,14 @@
 int main(void)
 {
 long n = 612852475143;
-long i = 2;
-while (n % 2 == 0)
+long i;
+for (i = 2; i <= n; i++)
+{
+if (n % i == 0)
 {
 n /= i;
-if (n == 1)
-{
+}
+}
 printf("%ld", i);
-}
-i++;
-}
 return (0);
 }
