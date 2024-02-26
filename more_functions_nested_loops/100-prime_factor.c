@@ -8,13 +8,16 @@ int main(void)
 {
 long n = 612852475143;
 long i;
-for (i = 2; i <= n; i++)
+for (i = 1; i <= n; ++i)
 {
 if (n % i == 0)
 {
 n /= i;
 }
+if (n == 1)
+{
+printf("%ld\n", i);
 }
-printf("%ld", i);
+}
 return (0);
 }
