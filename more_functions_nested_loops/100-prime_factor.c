@@ -1,21 +1,21 @@
 #include <stdio.h>
+#include <math.h>
 /**
 * main - prints the largest prime factor
 * Return: 0 successful
 */
 int main(void)
 {
-int i = 1;
 long n = 612852475143;
-while (n >= 1)
-i++;
+long i = 2;
+while (n % 2 == 0)
 {
-if (n % i == 0)
-{
-n = n / i;
-}
+n /= i;
 if (n == 1)
-printf("%d", i);
+{
+printf("%ld", i);
+}
+i++;
 }
 return (0);
 }
