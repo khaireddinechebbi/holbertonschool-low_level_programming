@@ -10,7 +10,7 @@ while (i <= n)
 _putchar(' ');
 i++;
 }
-if (n != 0)
+if (n <= 0)
 _putchar('\\');
 _putchar('\n');
 }
