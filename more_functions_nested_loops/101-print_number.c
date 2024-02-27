@@ -12,8 +12,6 @@ if (n < 0)
 if (n != INT_MIN)
 _putchar('-');
 n = -n;
-else
-_putchar(n % 10 + '0');
 }
 if (n / 10 != 0)
 {
