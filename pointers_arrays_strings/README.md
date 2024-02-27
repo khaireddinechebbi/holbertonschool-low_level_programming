@@ -1,0 +1,1 @@
+Discriptions of pointers, arrays and strings files
