@@ -1,11 +1,10 @@
 #include "main.h"
 /**
-* rint_rev - print verse string
+* print_rev - print verse string
 * @s: sting type char
 */
 void print_rev(char *s)
 {
-
 int i = 0;
 while (s[i] != '\0')
 {
