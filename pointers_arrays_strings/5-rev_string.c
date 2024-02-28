@@ -11,7 +11,7 @@ while (s[i] != '\0')
 i++;
 }
 ln = i;
-for (i -= 1; i > ln / 2; i--)
+for (i = ln - 1; i >= ln / 2; i--)
 {
 r = s[i];
 s[i] = s[ln - i - 1];
