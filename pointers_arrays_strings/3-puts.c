@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _puts - print string
-* @str: pointer type char
+* @str: string type char
 */
 void _puts(char *str)
 {
