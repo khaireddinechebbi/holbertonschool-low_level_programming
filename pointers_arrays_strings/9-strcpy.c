@@ -12,5 +12,5 @@ while ((dest[i] = src[i]) != '\0')
 {
 i++;
 }
-return ('\0');
+return ('*dest');
 }
