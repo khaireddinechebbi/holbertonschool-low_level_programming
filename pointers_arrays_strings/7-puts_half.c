@@ -11,10 +11,9 @@ while (str[i] != '\0')
 i++;
 }
 len = i - 1;
-for (i = 0; str[i] != 0; i++)
+for (i = (len / 2) + 1; i < len; i++)
 {
-if (i <= len / 2)
-continue;
+
 _putchar(str[i]);
 }
 _putchar('\n');
