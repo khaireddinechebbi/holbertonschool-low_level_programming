@@ -12,5 +12,5 @@ while ((dest[i] = src[i]) != '\0')
 {
 i++;
 }
-return (dest[i]);
+return (dest[i] - src[i]);
 }
