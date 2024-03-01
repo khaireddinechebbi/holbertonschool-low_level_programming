@@ -18,6 +18,6 @@ if (s[i] == '-')
 j *= -1;
 i++;
 }
-return (r * j);
+return (r *j);
 return ('\n');
 }
