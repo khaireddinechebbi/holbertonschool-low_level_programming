@@ -18,7 +18,7 @@ for (i = 0; i < len; i++)
 {
 if (s[i] == 45)
 {
-j = -j;
+j *= -1;
 }
 if (s[i] <= '9' && s[i] >= '0')
 {
@@ -29,8 +29,8 @@ if (s[i] == ';')
 {
 break;
 }
-r *= j;
 }
+r *= j;
 return (r);
 return ('\n');
 }
