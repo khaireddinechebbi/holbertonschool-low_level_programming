@@ -6,18 +6,31 @@
 */
 int _atoi(char *s)
 {
-int i = 0, j = 1, r = 0;
-while ((s[i] != ';') && (s[i] <= '9' && s[i] >= '0'))
+int i = 0, j = 1;
+unsigned int r = 0;
+int len;
+while (s[i] != '\0')
 {
-r = (r * 10) + (s[i] - '0');
 i++;
 }
-while ((s[i] != ';') && (s[i] < '0' || s[i] > '9'))
+len = i;
+for (i = 0; i < len; i++)
 {
-if (s[i] == '-')
-j *= -1;
-i++;
+if (s[i] == 45)
+{
+j = -j;
 }
-return (r *j);
+if (s[i] <= '9' && s[i] >= '0')
+{
+r *= 10;
+r += s[i] - 48;
+}
+if (s[i] == ';')
+{
+break;
+}
+r *= j;
+}
+return (r);
 return ('\n');
 }
