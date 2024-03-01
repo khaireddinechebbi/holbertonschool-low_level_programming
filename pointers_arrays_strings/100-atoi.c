@@ -8,13 +8,8 @@ int _atoi(char *s)
 {
 int i = 0, j = 1;
 unsigned int r = 0;
-int len;
-while (s[i] != '\0')
-{
-i++;
-}
-len = i;
-for (i = 0; i < len; i++)
+
+for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == 45)
 {
