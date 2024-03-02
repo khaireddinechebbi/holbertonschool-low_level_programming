@@ -13,6 +13,8 @@ while (i < n)
 {
 dest[i] = src[i];
 i++;
+if(src[i] == '\0')
+break;
 }
 return (dest);
 }
