@@ -14,8 +14,8 @@ while (i < n)
 dest[i] = src[i];
 if (src[i] == '\0')
 {
-
-dest[i] = '\0';
+break;
+i++;
 }
 i++;
 }
