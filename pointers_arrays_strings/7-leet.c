@@ -1,17 +1,24 @@
 #include "main.h"
 /**
+* *leet - change alphabet by numners
+* @s: string
+* Return: s successful
 */
 char *leet(char *s)
 {
-int i;
+int i, j;
+char *alpha = "aeotlAOETL";
+char *num = "4307143071";
+
 for (i = 0; s[i] != '\0'; i++)
 {
-s[i] = (s[i] == 'a' || s[i] == 'A') ? '4' : s[i];
-s[i] = (s[i] == 'e' || s[i] == 'E') ? '3' : s[i];
-s[i] = (s[i] == 'o' || s[i] == 'O') ? '0' : s[i];
-s[i] = (s[i] == 't' || s[i] == 'T') ? '7' : s[i];
-s[i] = (s[i] == 'l' || s[i] == 'L') ? '1' : s[i];
+for (j = 0; alpha[j] != '\0'; j++)
+{
+if (s[i] == alpha[j])
+{
+s[i] = num[j];
 }
-
+}
+}
 return (s);
 }
