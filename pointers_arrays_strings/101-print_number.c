@@ -6,21 +6,23 @@
 void print_number(int n)
 {
 int i = 10;
+unsigned int p;
+
 if (n < 0)
 {
-n *= -1;
+p = -n;
 _putchar('-');
 }
-while (n / i > 9)
+while (p / i > 9)
 {
 i *= 10;
 }
-if (n > 9)
+if (p > 9)
 while (i >= 10)
 {
-_putchar(n / i + '0');
-n = n % i;
+_putchar(p / i + '0');
+p = p % i;
 i /= 10;
 }
-_putchar(n % 10 + '0');
+_putchar(p % 10 + '0');
 }
