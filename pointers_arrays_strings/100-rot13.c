@@ -17,6 +17,7 @@ for (j = 0; alpha[j] != '\0'; j++)
 if (s[i] == alpha[j])
 {
 s[i] = rt[j];
+break;
 }
 }
 }
