@@ -13,12 +13,10 @@ while (src[i] != '\0')
 {
 len++;
 }
-for (i = 0; i < len; i++)
+for (i = 0; i < n; i++)
 {
 dest[i] = src[i];
-}
-for(i = len; i < n; i++)
-{
+if (i >= len)
 dest[i] = '\0';
 }
 return (dest);
