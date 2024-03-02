@@ -7,7 +7,7 @@
 char *leet(char *s)
 {
 int i, j;
-char *alpha = "aeotlAOETL";
+char *alpha = "aeotlAEOTL";
 char *num = "4307143071";
 
 for (i = 0; s[i] != '\0'; i++)
