@@ -12,5 +12,5 @@ int i = 1;
 while ((dest[i] = src[i]) && i < n)
 i++;
 return (dest);
-return ('\n');
+return ("\n");
 }
