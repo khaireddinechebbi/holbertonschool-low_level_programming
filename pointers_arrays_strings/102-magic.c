@@ -1,13 +1,11 @@
 #include <stdio.h>
-/**
-* main - print n = 98
-* Return: 0 successful
-*/
+
 int main(void)
 {
   int n;
   int a[5];
   int *p;
+
   a[2] = 1024;
   p = &n;
     /*
