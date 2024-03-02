@@ -1,21 +1,28 @@
 #include "main.h"
-#include <limits.h>
-
 /**
- * print_number - Prints an integer
- * @n: The integer to be printed
- */
+* print_number - print numbers
+* @n: integer
+*/
 void print_number(int n)
 {
+int i = 10;
+unsigned int p;
+p = n;
 if (n < 0)
 {
-if (n != INT_MIN)
+p = -n;
 _putchar('-');
-n = -n;
 }
-if (n / 10 != 0)
+while (p / i > 9)
 {
-print_number(n / 10);
+i *= 10;
 }
-_putchar((n % 10) + '0');
+if (p > 9)
+while (i >= 10)
+{
+_putchar(p / i + '0');
+p = p % i;
+i /= 10;
+}
+_putchar(p % 10 + '0');
 }
