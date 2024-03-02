@@ -10,8 +10,8 @@ int i, r = 0;
 n -= 1;
 for (i = 0; i <= n / 2; i++)
 {
-r = s[i];
-s[i] = s[n - i];
-s[ln - i] = r;
+r = a[i];
+a[i] = a[n - i];
+a[ln - i] = r;
 }
 }
