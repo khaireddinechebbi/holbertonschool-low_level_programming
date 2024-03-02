@@ -12,6 +12,6 @@ for (i = 0; i <= n / 2; i++)
 {
 r = a[i];
 a[i] = a[n - i];
-a[ln - i] = r;
+a[n - i] = r;
 }
 }
