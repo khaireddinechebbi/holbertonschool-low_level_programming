@@ -14,10 +14,12 @@ i++;
 }
 len = i;
 for (i = 0; i < len; i++)
+{
 if (s[i] == c)
 break;
-return (s + i);
 if (i == len - 1 && s[len - 1] != c)
 return ("nil");
-return ("\n");
+}
+
+return (s + i);
 }
