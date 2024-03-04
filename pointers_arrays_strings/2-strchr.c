@@ -17,7 +17,7 @@ break;
 }
 if (s[i] == '\0')
 {
-return (NULL);
+return ("NULL");
 }
 return (s + i);
 }
