@@ -15,5 +15,9 @@ i++;
 else
 break;
 }
+if (s[i] == '\0')
+{
+return ('nil');
+}
 return (s + i);
 }
