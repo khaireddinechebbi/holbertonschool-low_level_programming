@@ -16,11 +16,7 @@ len = i;
 for (i = 0; i < len; i++)
 {
 if (s[i] == c)
-{
 break;
-return (s + i);
 }
-
-}
-return ("\n");
+return ((i < len)? s + i : "nil");
 }
