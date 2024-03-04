@@ -20,8 +20,7 @@ if (s[i] == c)
 break;
 return (s + i);
 }
-if (s[len - 1] != c)
-return ("nil");
+
 }
 return ("\n");
 }
