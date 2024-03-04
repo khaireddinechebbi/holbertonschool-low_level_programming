@@ -21,5 +21,5 @@ return (s + i);
 }
 
 if (i == len - 1 && s[len - 1] != c)
-return ("nil");
+return ('\0');
 }
