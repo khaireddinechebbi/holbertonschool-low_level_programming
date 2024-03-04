@@ -19,7 +19,7 @@ n++;
 break;
 }
 else
-if (accept[i + 1] == '\0')
+if ((accept[i + 1]) == '\0')
 return (n);
 }
 s++;
