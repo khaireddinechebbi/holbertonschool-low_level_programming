@@ -10,13 +10,9 @@ char *_strchr(char *s, char c)
 unsigned int i = 0, len;
 while (s[i] != '\0')
 {
-i++;
-}
-len = i;
-for (i = 0; i < len; i++)
-{
 if (s[i] == c)
 break;
+i++;
 }
-return ((i < len)? s + i : "nil");
+return ((s[i] != '\0')? s + i : "nil");
 }
