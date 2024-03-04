@@ -13,14 +13,14 @@ while (s[i] != '\0')
 i++;
 }
 len = i;
-for (i = 0; i <= len; i++)
+for (i = 0; i < len; i++)
 {
 if (s[i] == c)
 {
 break;
 return (s + i);
 }
-if (s[len] != c)
+if (s[len - 1] != c)
 return ("nil");
 }
 return ("\n");
