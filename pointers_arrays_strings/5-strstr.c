@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strpbrk -  locates a substring
+* *_strpbrk - locates a substring
 * @haystack: string
 * @needle: string
 * Return: haystack
@@ -17,5 +17,5 @@ i++;
 }
 haystack++;
 }
-return ("nil");
+return (0);
 }
