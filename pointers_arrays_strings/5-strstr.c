@@ -17,5 +17,5 @@ i++;
 }
 haystack++;
 }
-return (0);
+return (NULL);
 }
