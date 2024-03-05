@@ -12,6 +12,7 @@ unsigned int l = 0, w = 0;
 for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
+{
 if (j == i)
 {
 l += a[j];
@@ -19,6 +20,7 @@ l += a[j];
 if (j == size - i -1)
 {
 w += a[j];
+}
 }
 }
 printf("%d, %d", l, w);
