@@ -15,7 +15,7 @@ l += a[i];
 }
 for (j = size - 1; j < size * size - 1; j += size - 1)
 {
-w += a[i];
+w += a[j];
 }
 
 printf("%d, %d\n", l, w);
