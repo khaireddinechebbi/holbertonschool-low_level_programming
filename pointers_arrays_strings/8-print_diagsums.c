@@ -15,11 +15,11 @@ for (j = 0; j < size; j++)
 {
 if (j == i)
 {
-l += a[j];
+l += a[i][j];
 }
 if (j == size - i -1)
 {
-w += a[j];
+w += a[i][j];
 }
 }
 }
