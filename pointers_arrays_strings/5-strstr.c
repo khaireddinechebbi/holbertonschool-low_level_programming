@@ -17,5 +17,5 @@ i++;
 }
 haystack++;
 }
-return (NULL);
+return ("nil");
 }
