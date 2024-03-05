@@ -11,15 +11,14 @@ int i, j;
 unsigned int l = 0, w = 0;
 for (i = 0; i < size; i++)
 {
-while (j == i)
+for (j = 0; j < size; j++)
+if (j == i)
 {
 l += a[i][j];
-j++;
 }
-while (j == size - i - 1)
+if (j == size - i -1)
 {
 w += a[i][j];
-j++;
 }
 }
 printf("%d, %d", l, w);
