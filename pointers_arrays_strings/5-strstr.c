@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strpbrk - locates a substring
+* *_strstr - locates a substring
 * @haystack: string
 * @needle: string
 * Return: haystack
@@ -18,7 +18,7 @@ do {
 if (needle[i + 1] == '\0')
 return (haystack);
 i++;
-} while (haystack[i] == needle [i]);
+} while (haystack[i] == needle[i]);
 haystack++;
 }
 return ('\0');
