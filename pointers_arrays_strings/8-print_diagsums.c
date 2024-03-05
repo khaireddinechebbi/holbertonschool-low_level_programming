@@ -9,19 +9,14 @@ void print_diagsums(int *a, int size)
 {
 int i, j;
 unsigned int l = 0, w = 0;
-for (i = 0; i < size; i++)
-{
-for (j = 0; j < size; j++)
-{
-if (j == i)
+for (i = 0; i < size**2; i += size + 1)
 {
 l += a[i];
 }
-if (j == size - i -1)
+for (j = 0; j < size**2 - 1; j += size - 1)
 {
 w += a[i];
 }
-}
-}
+
 printf("%d, %d", l, w);
 }
