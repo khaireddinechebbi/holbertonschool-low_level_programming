@@ -14,11 +14,11 @@ for (i = 0; i < size; i++)
 for (j = 0; j < size; j++)
 if (j == i)
 {
-l += a;
+l += a[i];
 }
 if (j == size - i -1)
 {
-w += a;
+w += a[i];
 }
 }
 printf("%d, %d", l, w);
