@@ -11,7 +11,7 @@ if (n < a)
 return (0);
 else if (n % a == 0)
 return (0);
-else if (n == a)
+else if (a == n)
 return (1);
 else
 return (devide(a + 1, n));
