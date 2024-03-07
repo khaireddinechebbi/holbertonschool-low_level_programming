@@ -2,7 +2,7 @@
 /**
 * power - compare two numbers
 * @x: int
-* @n; int
+* @n: int
 * Return: x
 */
 int power(int x, int n)
