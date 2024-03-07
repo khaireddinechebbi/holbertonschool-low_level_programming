@@ -28,6 +28,8 @@ return (0);
 */
 int is_prime_number(int n)
 {
-int a;
-return (devide(a, n));
+int m = 1;
+if (n == 1)
+return (0);
+return (devide(m, n));
 }
