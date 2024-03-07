@@ -7,7 +7,7 @@
 */
 int devide(int a, int n)
 {
-if (n <= 1)
+if (n < a)
 return (0);
 else if (n % a == 0)
 return (0);
