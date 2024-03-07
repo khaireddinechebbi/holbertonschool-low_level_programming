@@ -1,14 +1,18 @@
 #include "main.h"
 /**
+* power - compare two numbers
+* @x: int
+* @n; int
+* Return: x
 */
-int power_err(int x, int n)
+int power(int x, int n)
 {
 if (x * x == n)
 return (x);
 else if (x * x > n)
 return (-1);
 else
-return (power_err(x + 1, n));
+return (power(x + 1, n));
 
 }
 
