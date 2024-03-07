@@ -7,17 +7,14 @@
 */
 int devide(int a, int n)
 {
-if (n > a)
-{
-if (n % a == 0)
+if (n <= 1)
 return (0);
-else
-return (devide(a + 1, n));
-}
+else if (n % a == 0)
+return (0);
 else if (n == a)
 return (1);
 else
-return (0);
+return (devide(a + 1, n));
 }
 
 
@@ -28,8 +25,9 @@ return (0);
 */
 int is_prime_number(int n)
 {
-int m = 1;
+int m = 2;
 if (n == 1)
 return (0);
+else
 return (devide(m, n));
 }
