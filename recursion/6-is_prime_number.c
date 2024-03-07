@@ -14,10 +14,10 @@ return (0);
 else
 return (devide(a + 1, n));
 }
-if (n == a)
+else if (n == a)
 return (1);
 else
-return (0)
+return (0);
 }
 
 
@@ -29,5 +29,5 @@ return (0)
 int is_prime_number(int n)
 {
 int a;
-return (devide(a, n))
+return (devide(a, n));
 }
