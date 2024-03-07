@@ -7,17 +7,16 @@
 */
 int devide(int a, int n)
 {
-if (n > a)
+if (n < 0)
 {
+return (0);
+}
 if (n % a == 0)
 return (0);
-else
-return (devide(a + 1, n));
-}
-else if (n == a)
+if (n == a)
 return (1);
 else
-return (0);
+return (devide(a + 1, n));
 }
 
 
