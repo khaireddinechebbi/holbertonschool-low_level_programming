@@ -6,6 +6,7 @@
 * Return: 1 if prime num, 0 otherwise
 */
 int devide(int a, int n)
+{
 if (n > a)
 {
 if (n % a == 0)
@@ -17,6 +18,8 @@ if (n == a)
 return (1);
 else
 return (0)
+}
+
 
 /**
 * is_prime_number - verifier if it's prime
