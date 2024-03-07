@@ -9,10 +9,10 @@ int devide(int a, int n)
 {
 if (n < a)
 return (0);
+else if (n == a)
+return (1);
 else if (n % a == 0)
 return (0);
-else if (a == n)
-return (1);
 else
 return (devide(a + 1, n));
 }
