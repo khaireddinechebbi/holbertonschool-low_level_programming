@@ -8,7 +8,6 @@
 */
 int main(int argc, char *argv[])
 {
-
 if (argc == 3)
 {
 int x = atoi(argv[1]);
@@ -16,6 +15,6 @@ int y = atoi(argv[2]);
 printf("%d\n", x * y);
 }
 else
-printf("Error");
+printf("Error\n");
 return (0);
 }
