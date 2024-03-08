@@ -1,10 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 /**
 */
-int name_program(char *argv[])
+int main(int argc, char *argv[])
 {
-char c;
-c = argv[0];
-_putchar(c);
+(void)argc;
+printf("%s\n", argv[0]);
 return (0);
 }
