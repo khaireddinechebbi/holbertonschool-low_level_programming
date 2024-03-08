@@ -8,9 +8,7 @@
 */
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0; i < argc; i++)
-{
+
 if (argc == 3)
 {
 int x = atoi(argv[1]);
@@ -19,6 +17,5 @@ printf("%d\n", x * y);
 }
 else
 printf("Error");
-}
 return (0);
 }
