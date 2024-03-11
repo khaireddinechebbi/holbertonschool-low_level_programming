@@ -9,8 +9,12 @@
 char *_strdup(char *str)
 {
 char *s;
-int i;
-s = malloc(sizeof(char) * (sizeof(str) + 1));
+int i, j = 0;
+while (str[j])
+{
+j++;
+}
+s = malloc(sizeof(char) * (j + 1));
 if (str == 0 || s == 0)
 return ('\0');
 else
