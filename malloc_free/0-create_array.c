@@ -13,9 +13,9 @@ unsigned int i;
 char *s;
 
 s = malloc(sizeof(char) * size);
-if (s == 0 || size == NULL)
+if (s == 0 || size == 0)
 {
-return (NULL);
+return ('\0');
 }
 for (i = 0; i < size; i++)
 {
