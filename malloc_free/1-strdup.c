@@ -19,7 +19,7 @@ if (str == NULL || s == NULL)
 return (NULL);
 else
 {
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; str[i] != NULL; i++)
 {
 s[i] = str[i];
 }
