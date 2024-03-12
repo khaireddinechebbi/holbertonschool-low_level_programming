@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* **alloc_grid -  returns a pointer to a 2 dim array of integers
-* @width: int
+* **free_grid - free grid
+* @grid: two dimentional array
 * @height: int
-* Return: s
 */
 void free_grid(int **grid, int height)
 {
