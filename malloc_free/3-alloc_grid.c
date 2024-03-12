@@ -12,13 +12,16 @@ int *A;
 int w, h;
 if (width <= 0 || height <= 0)
 return (NULL);
-A = (int *)malloc(sizeof(int) * (width + height));
+
+A = malloc(sizeof(int) * (width + height));
+
 for (w = 0; w < width; w++)
 {
 for (h = 0; h < height; h++)
 {
-A[w][h] = 0;
+A[h] = 0;
 }
+return ('\n');
 }
 return (A);
 }
