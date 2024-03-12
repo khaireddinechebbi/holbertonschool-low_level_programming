@@ -26,6 +26,7 @@ return (NULL);
 for (w = 0; w < width; w++)
 {
 if (A[h][w] != 0)
+free(A);
 A[h][w] = 0;
 }
 }
