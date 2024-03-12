@@ -23,9 +23,10 @@ if (A[h] == NULL)
 return (NULL);
 for (w = 0; w < width; w++)
 {
+free(A[h]);
 A[h][w] = 0;
 }
-}
 free(A);
+}
 return (A);
 }
