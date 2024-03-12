@@ -13,20 +13,17 @@ int h, w;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-A = malloc(sizeof(int) * height);
+A = malloc(sizeof(int *) * height);
 if (A == NULL)
-return (NULL);
-
-
-*A = malloc(sizeof(int) * width);
-if (*A == NULL)
 return (NULL);
 for (h = 0; h < height; h++)
 {
+A[h] = malloc(sizeof(int) * width);
+if (a[h] == NULL)
+return (NULL);
 for (w = 0; w < width; w++)
 {
 A[h][w] = 0;
-
 }
 }
 return (A);
