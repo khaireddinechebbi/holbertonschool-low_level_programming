@@ -19,7 +19,7 @@ return (NULL);
 for (h = 0; h < height; h++)
 {
 A[h] = malloc(sizeof(int) * width);
-if (a[h] == NULL)
+if (A[h] == NULL)
 return (NULL);
 for (w = 0; w < width; w++)
 {
