@@ -26,7 +26,7 @@ return (NULL);
 for (w = 0; w < width; w++)
 {
 A[h][w] = 0;
-return (0);
+
 }
 }
 return (A);
