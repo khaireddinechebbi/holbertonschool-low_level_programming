@@ -20,7 +20,7 @@ return (NULL);
 for (h = 0; h < height; h++)
 {
 *A = malloc(sizeof(int) * width);
-if (A[h] == NULL)
+if (*A == NULL)
 return (NULL);
 
 for (w = 0; w < width; w++)
