@@ -22,13 +22,13 @@ for (h = 0; h < height; h++)
 {
 A[h] = malloc(sizeof(int) * width);
 if (A[h] == NULL)
-return NULL;
+return (NULL);
 
 for (w = 0; w < width; w++)
 {
 A[h][w] = 0;
 }
 }
-free (A);
+free(A);
 return (A);
 }
