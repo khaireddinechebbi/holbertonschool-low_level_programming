@@ -12,7 +12,7 @@ int *A;
 int w, h;
 if (width <= 0 || height <= 0)
 return (NULL);
-A = (int *)calloc(sizeof(int) * (width + height));
+A = (int *)malloc(sizeof(int) * (width + height));
 for (w = 0; w < width; w++)
 {
 for (h = 0; h < height; h++)
