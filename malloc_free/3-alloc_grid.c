@@ -22,11 +22,14 @@ A[h] = malloc(sizeof(int) * width);
 if (A[h] == NULL)
 {
 return (NULL);
+free(A[h]);
 }
 for (w = 0; w < width; w++)
 {
 A[h][w] = 0;
+
 }
+free(A[h]);
 }
 return (A);
 free(A);
