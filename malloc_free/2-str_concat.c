@@ -14,9 +14,9 @@ char *s;
 if (s1 == NULL || s2 == NULL)
 return (NULL);
 
-while (s1[i])
+while (s1[l1])
 l1++;
-while (s2[j])
+while (s2[l2])
 l2++;
 s = malloc(sizeof(char) * (l1 + l2 + 1));
 if (s == NULL)
