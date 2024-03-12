@@ -29,4 +29,5 @@ A[h][w] = 0;
 }
 }
 return (A);
+free(A);
 }
