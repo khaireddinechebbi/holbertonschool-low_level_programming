@@ -26,5 +26,6 @@ for (w = 0; w < width; w++)
 A[h][w] = 0;
 }
 }
+free(A);
 return (A);
 }
