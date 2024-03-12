@@ -17,12 +17,12 @@ A = malloc(sizeof(int) * height);
 if (A == NULL)
 return (NULL);
 
-for (h = 0; h < height; h++)
-{
+
 *A = malloc(sizeof(int) * width);
 if (*A == NULL)
 return (NULL);
-
+for (h = 0; h < height; h++)
+{
 for (w = 0; w < width; w++)
 {
 A[h][w] = 0;
