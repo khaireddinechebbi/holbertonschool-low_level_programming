@@ -21,11 +21,11 @@ return (NULL);
 for (h = 0; h < height; h++)
 {
 A[h] = malloc(sizeof(int) * width);
-if (grid[i] == NULL)
+if (A[h] == NULL)
 {
-for (j = 0; j < i; j++)
-free(grid[j]);
-free(grid);
+for (w = 0; w < h; h++)
+free(A[w]);
+free(A);
 return NULL;
 }
 for (w = 0; w < width; w++)
