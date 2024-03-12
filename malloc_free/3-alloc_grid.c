@@ -15,6 +15,9 @@ return (NULL);
 
 A = malloc(sizeof(int) * height);
 
+if (A == NULL)
+return (NULL);
+
 for (h = 0; h < height; h++)
 {
 A[h] = malloc(sizeof(int) * width);
