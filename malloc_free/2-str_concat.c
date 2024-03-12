@@ -8,7 +8,8 @@ int i = 0, j = 0, k;
 char *s;
 
 if (s1 == NULL || s2 == NULL)
-return (NULL)
+return (NULL);
+
 while (s1[i])
 i++;
 
