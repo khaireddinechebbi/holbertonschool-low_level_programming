@@ -14,7 +14,6 @@ if (width <= 0 || height <= 0)
 return (NULL);
 
 A = malloc(sizeof(int) * height);
-
 if (A == NULL)
 return (NULL);
 
@@ -26,8 +25,7 @@ return (NULL);
 
 for (w = 0; w < width; w++)
 {
-free(A[h]);
-free(A);   
+  
 A[h][w] = 0;
 }
 }
