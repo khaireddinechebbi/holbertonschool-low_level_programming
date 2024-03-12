@@ -13,27 +13,22 @@ int h, w;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-A = malloc(sizeof(int *) * height);
+A = (int **)malloc(sizeof(int *) * height);
 if (A == NULL)
 return (NULL);
 for (h = 0; h < height; h++)
 {
-A[h] = malloc(sizeof(int) * width);
+A[h] = (int *)malloc(sizeof(int) * width);
 if (A[h] == NULL)
 {
 for (h--; h >= 0; h--)
-{
-    free(A[h]);
-    free(A);
-    return (NULL);
+free(A[h]);
+free(A);
+return (NULL);
 }
-
 }
+for (h = 0; h < height; h++)
 for (w = 0; w < width; w++)
-{
 A[h][w] = 0;
-}
-}
 return (A);
-
 }
