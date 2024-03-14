@@ -1,6 +1,6 @@
-#ifndef struct dog
-#define struct dog
-
+#ifndef dog
+#define dog
+/** struct dog - struct */
 struct dog
 {
 char *name;
