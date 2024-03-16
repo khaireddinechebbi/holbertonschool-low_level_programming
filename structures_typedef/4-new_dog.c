@@ -41,4 +41,7 @@ new_dog->owner[i] = owner[i];
 new_dog->age = age;
 
 return (new_dog);
+free(new_dog->name);
+free(new_dog->owner);
+free(new_dog);
 }
