@@ -27,7 +27,7 @@ if (new_dog->owner == NULL || new_dog->name == NULL)
 {
 free(new_dog->name);
 free(new_dog->owner);
-free(new_dog->age);
+
 return (NULL);
 }
 for (i = 0; i < n; i++)
