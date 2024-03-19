@@ -15,9 +15,9 @@ if (size > 0)
 {
 for (i = 0; i < size; i++)
 {
-if (cmp(array[i]))
+if (cmp(array[i]) != NULL)
 return (i);
-else
+if (cmp(array[i] == NULL))
 return (-1);
 }
 }
