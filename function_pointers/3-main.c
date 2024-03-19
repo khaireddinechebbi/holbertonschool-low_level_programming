@@ -14,8 +14,8 @@ printf("Error\n");
 return (98);
 }
 
-int num1 = atoi(argv[1]);
-int num2 = atoi(argv[3]);
+int a = atoi(argv[1]);
+int b = atoi(argv[3]);
 char *operator = argv[2];
 
 if (get_op_func(operator) == NULL || argv[2][1] != '\0') {
