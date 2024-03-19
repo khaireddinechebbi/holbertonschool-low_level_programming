@@ -9,20 +9,23 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc != 4) {
+if (argc != 4)
+{
 printf("Error\n");
 return (98);
 }
 
-int a = atoi(argv[1]);
-int b = atoi(argv[3]);
+int num1 = atoi(argv[1]);
+int num2 = atoi(argv[3]);
 char *operator = argv[2];
 
-if (get_op_func(operator) == NULL || argv[2][1] != '\0') {
+if (get_op_func(operator) == NULL || argv[2][1] != '\0')
+{
 printf("Error\n");
 return (99);
 }
-if ((*operator == '/' || *operator == '%') && num2 == 0) {
+if ((*operator == '/' || *operator == '%') && num2 == 0)
+{
 printf("Error\n");
 return (100);
 }
