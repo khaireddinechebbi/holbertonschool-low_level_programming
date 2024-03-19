@@ -16,7 +16,7 @@ if (size > 0)
 for (i = 0; i < size; i++)
 {
 if (cmp(array[i]))
-return (array[i]);
+return (i);
 }
 }
 return (-1);
