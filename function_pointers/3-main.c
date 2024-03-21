@@ -9,7 +9,7 @@
 */
 int main(int argc, char *argv[])
 {
-int num1, num2;
+int num1, num2, result;
 char operator;
 int (*f)(int a, int b);
 
@@ -34,7 +34,7 @@ if ((operator == '/' || operator == '%') && num2 == 0)
 printf("Error\n");
 return (100);
 }
-
-printf("%d\n", f(num1, num2));
+result = f(num1, num2);
+printf("%d\n", result);
 return (0);
 }
