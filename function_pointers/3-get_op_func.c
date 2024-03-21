@@ -5,6 +5,7 @@
 * get_op_func - get function
 * @s: structure
 * @int: int
+* @int: int
 * Return: function
 */
 int (*get_op_func(char *s))(int, int)
