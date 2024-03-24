@@ -24,5 +24,6 @@ printf("%s", str);
 if (separator != NULL && i < (n - 1))
 printf("%s", separator);
 }
+va_end(string);
 printf("\n");
 }
