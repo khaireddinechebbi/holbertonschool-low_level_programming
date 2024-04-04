@@ -1,5 +1,5 @@
-#ifndef SINGLE_LINKED_LIST_H
-#define SINGLE_LINKED_LIST_H
+#ifndef DOUBLY_LINKED_LIST_H
+#define DOUBLY_LINKED_LIST_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -22,5 +22,7 @@ typedef struct dlistint_s
 
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+
 
 #endif
