@@ -1,5 +1,5 @@
-#ifndef VARIADIC_FUNCTIONS_H
-#define VARIADIC_FUNCTIONS_H
+#ifndef SINGLE_LINKED_LIST_H
+#define SINGLE_LINKED_LIST_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
