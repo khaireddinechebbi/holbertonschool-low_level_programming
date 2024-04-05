@@ -12,7 +12,7 @@ return (-1);
 if (index == 0)
 {
 *head = t->next;
-if (head != NULL)
+if (*head != NULL)
 (*head)->prev = NULL;
 return (1);
 }
