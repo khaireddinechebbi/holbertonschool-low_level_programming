@@ -16,7 +16,7 @@ if (*head != NULL)
 (*head)->prev = NULL;
 return (1);
 }
-for (i = 0; t != NULL && i < index; i++)
+for (i = 0; t != NULL && i < index - 1; i++)
 t = t->next;
 
 if (t == NULL)
@@ -24,6 +24,7 @@ return (-1);
 
 d = t->next->next;
 t->next = d;
+if (d != NULL)
 d->prev = t;
 
 return (1);
