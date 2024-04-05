@@ -10,6 +10,6 @@ dlistint_t *t;
 while(head)
 t = head;
 head = head->next;
-free(t->n);
+
 free(t);
 }
