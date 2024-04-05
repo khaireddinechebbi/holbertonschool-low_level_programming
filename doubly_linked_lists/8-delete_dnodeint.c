@@ -18,6 +18,7 @@ if (index == 0)
 *head = t->next;
 if (*head != NULL)
 (*head)->prev = NULL;
+free(t);
 return (1);
 }
 for (i = 0; t != NULL && i < index - 1; i++)
@@ -27,6 +28,7 @@ if (t == NULL || t->next == NULL)
 return (-1);
 
 d = t->next->next;
+free(t->next);
 t->next = d;
 if (d != NULL)
 d->prev = t;
