@@ -7,7 +7,7 @@
 int sum_dlistint(dlistint_t *head)
 {
 dlistint_t *t = head;
-unsigned int s;
+int s = 0;
 
 if (t == NULL)
 return (0);
