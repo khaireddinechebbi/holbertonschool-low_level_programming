@@ -23,7 +23,7 @@ return (1);
 for (i = 0; t != NULL && i < index - 1; i++)
 t = t->next;
 
-if (t == NULL)
+if (t == NULL || t->next == NULL)
 return (-1);
 
 d = t->next->next;
