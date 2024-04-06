@@ -12,12 +12,8 @@ unsigned int i = 0;
 
 while (r != 0)
 {
-while (r)
-{
 i += r & 1;
 r >>= 1;
 }
-
 return (i);
-}
 }
